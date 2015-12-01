@@ -668,10 +668,10 @@
 		3669E881C221C4E64F0C2F9E /* ColorUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3669E10D3A8EE40F981232B6 /* ColorUtils.mm */; };
 		3669EEA85F37F07344CF192F /* ArrowView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3669E50F4255300CE2D0FAD3 /* ArrowView.mm */; };
 		9708EA291B6C349C00788092 /* NuanceWebController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9708EA281B6C349C00788092 /* NuanceWebController.mm */; };
+		971D3F6E1BF9A465007104BA /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D3F6D1BF9A465007104BA /* SpeechKit.framework */; settings = {ASSET_TAGS = (); }; };
 		97329AB41B6C63AC00EB38AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97329AB31B6C63AC00EB38AA /* AVFoundation.framework */; };
 		97329AB61B6C640900EB38AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97329AB51B6C640900EB38AA /* Security.framework */; };
 		97329AB81B6C643A00EB38AA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97329AB71B6C643A00EB38AA /* CFNetwork.framework */; };
-		97E5550E1B681722008D9A8F /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E5550D1B681722008D9A8F /* SpeechKit.framework */; };
 		97E555101B681798008D9A8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E5550F1B681798008D9A8F /* SystemConfiguration.framework */; };
 		97F137C21BA0CDCC00C25EDF /* earcon_cancel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97F137C11BA0CDCC00C25EDF /* earcon_cancel.wav */; };
 		97F137C41BA0CDE300C25EDF /* earcon_done_listening.wav in Resources */ = {isa = PBXBuildFile; fileRef = 97F137C31BA0CDE300C25EDF /* earcon_done_listening.wav */; };
@@ -1439,10 +1439,10 @@
 		8D1107310486CEB800E47090 /* JabberChess-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JabberChess-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9708EA271B6C349C00788092 /* NuanceWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuanceWebController.h; sourceTree = "<group>"; };
 		9708EA281B6C349C00788092 /* NuanceWebController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NuanceWebController.mm; sourceTree = "<group>"; };
+		971D3F6D1BF9A465007104BA /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
 		97329AB31B6C63AC00EB38AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		97329AB51B6C640900EB38AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		97329AB71B6C643A00EB38AA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		97E5550D1B681722008D9A8F /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechKit.framework; path = ../../nuance/DragonMobileSDK_1.4.19/SpeechKit.framework; sourceTree = "<group>"; };
 		97E5550F1B681798008D9A8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		97F137C11BA0CDCC00C25EDF /* earcon_cancel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = earcon_cancel.wav; path = Sounds/earcon_cancel.wav; sourceTree = "<group>"; };
 		97F137C31BA0CDE300C25EDF /* earcon_done_listening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = earcon_done_listening.wav; path = Sounds/earcon_done_listening.wav; sourceTree = "<group>"; };
@@ -1456,10 +1456,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97329AB81B6C643A00EB38AA /* CFNetwork.framework in Frameworks */,
+				971D3F6E1BF9A465007104BA /* SpeechKit.framework in Frameworks */,
 				97329AB61B6C640900EB38AA /* Security.framework in Frameworks */,
 				97329AB41B6C63AC00EB38AA /* AVFoundation.framework in Frameworks */,
 				97E555101B681798008D9A8F /* SystemConfiguration.framework in Frameworks */,
-				97E5550E1B681722008D9A8F /* SpeechKit.framework in Frameworks */,
 				17C81EE717E4835000A47866 /* QuartzCore.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -2338,11 +2338,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				971D3F6D1BF9A465007104BA /* SpeechKit.framework */,
 				97329AB71B6C643A00EB38AA /* CFNetwork.framework */,
 				97329AB51B6C640900EB38AA /* Security.framework */,
 				97329AB31B6C63AC00EB38AA /* AVFoundation.framework */,
 				97E5550F1B681798008D9A8F /* SystemConfiguration.framework */,
-				97E5550D1B681722008D9A8F /* SpeechKit.framework */,
 				17C81EE617E4835000A47866 /* QuartzCore.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -2368,7 +2368,7 @@
 			dependencies = (
 			);
 			name = JabberChess;
-			productName = Glaurung;
+			productName = Jackson;
 			productReference = 1D6058910D05DD3D006BFB54 /* JabberChess.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -2378,7 +2378,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 968M7666G3;
@@ -3088,7 +3088,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -3096,7 +3095,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "2DD57107-82DA-4DB7-9386-6F4FD1EEC306";
+				PROVISIONING_PROFILE = "12325ce8-65d8-4d46-98ec-908858b3c267";
 				SDKROOT = iphoneos;
 			};
 			name = "AppStore Distribution";
@@ -3109,13 +3108,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zchen/jackson/dev/nuance/DragonMobileSDK_1.4.19,
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -3136,9 +3133,8 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenjackson.jabberchess;
 				PRODUCT_NAME = JabberChess;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3148,8 +3144,7 @@
 		1796013A11D3A5340074E5B7 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jackson Chen (968M7666G3)";
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -3157,7 +3152,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";
+				PROVISIONING_PROFILE = "dae8371b-1c51-446d-8a86-429d60c36c64";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -3170,13 +3165,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zchen/jackson/dev/nuance/DragonMobileSDK_1.4.19,
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -3197,9 +3190,8 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenjackson.jabberchess;
 				PRODUCT_NAME = JabberChess;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3214,13 +3206,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zchen/jackson/dev/nuance/DragonMobileSDK_1.4.19,
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -3229,9 +3219,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "JabberChess-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenjackson.jabberchess;
 				PRODUCT_NAME = JabberChess;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3245,13 +3234,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zchen/jackson/dev/nuance/DragonMobileSDK_1.4.19,
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -3271,8 +3258,8 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenjackson.jabberchess;
 				PRODUCT_NAME = JabberChess;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3282,16 +3269,16 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jackson Chen (25H8SQ2JCR)";
 				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";
+				PROVISIONING_PROFILE = "12325ce8-65d8-4d46-98ec-908858b3c267";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -3299,8 +3286,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jackson Chen (968M7666G3)";
 				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -3308,7 +3294,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";
+				PROVISIONING_PROFILE = "b5b73a16-f94f-4f41-ab4c-5427e9e5556d";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
